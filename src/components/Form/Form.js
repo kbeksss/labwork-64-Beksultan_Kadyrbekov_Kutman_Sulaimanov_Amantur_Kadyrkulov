@@ -11,11 +11,22 @@ class Form extends Component {
                     <h3>Add new post</h3>
                     <div className='Title'>
                         <label htmlFor="title">Title</label>
-                        <input type="text" id='title' onChange={this.props.changeValue} name='title' value={this.props.title}/>
+                        <input
+                            type="text"
+                            id='title'
+                            onChange={this.props.changeValue}
+                            name='title' value={this.props.title}
+                        />
                     </div>
                     <div className='Description'>
                         <label htmlFor="description">Description</label>
-                        <textarea id="description" onChange={this.props.changeValue} name='text' cols="10" rows="5" value={this.props.text}/>
+                        <textarea
+                            id="description"
+                            onChange={this.props.changeValue}
+                            name='text' cols="10" rows="5"
+                            value={this.props.text}
+                            onKeyDown={this.props.onEnter}
+                        />
                     </div>
                     <Button type='submit'>Save</Button>
                 </form>
