@@ -1,0 +1,28 @@
+.Form{
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 15px 20px;
+    border: 2px solid #282c34;
+}
+.Form label{
+    display: block;
+}
+.Form button{
+    padding: 5px 10px;
+}
+.Form input , .Form textarea{
+    display: inline-block;
+    border: 1px solid #282c34;
+    border-radius: 3px;
+}
+.Title input{
+    width: 60%;
+}
+.Description textarea{
+    width: 80%;
+}
+
+.Form h3{
+    text-transform: uppercase;
+    margin: 5px 0 10px;
+}
