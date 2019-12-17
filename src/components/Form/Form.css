@@ -10,16 +10,20 @@
 }
 .Form button{
     padding: 5px 10px;
+    font-size: 18px;
 }
 .Form input , .Form textarea{
     display: inline-block;
     border: 1px solid #282c34;
     border-radius: 3px;
+    padding: 5px;
 }
 .Title input{
     width: 60%;
+    font-size: 18px;
 }
 .Description textarea{
+    font-size: 17px;
     width: 80%;
     margin-bottom: 20px;
 }
