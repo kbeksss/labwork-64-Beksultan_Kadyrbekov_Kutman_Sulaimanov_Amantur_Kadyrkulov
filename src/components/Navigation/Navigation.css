@@ -25,4 +25,8 @@
 }
 .Link.active{
     background: #8d8d8d;
+    color: #000;
+}
+.Link:hover{
+    background: #8d8d8d;
 }

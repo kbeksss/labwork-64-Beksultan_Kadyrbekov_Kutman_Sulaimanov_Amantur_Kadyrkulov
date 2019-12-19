@@ -1,16 +1,17 @@
-import React from 'react';
-import './Post.css';
+import React, {Component} from 'react';
 
-import Button from "../../UI/Button/Button";
+class Post extends Component {
+    componentDidMount() {
+        console.log(this.props.match.params);
+    }
 
-const Post = props => {
-    return (
-        <div className='Post'>
-            <p className='Date'>{props.date}</p>
-            <p className='Text'>{props.text}</p>
-            <Button type='button'>Read more >></Button>
-        </div>
-    );
-};
+    render() {
+        return (
+            <div>
+
+            </div>
+        );
+    }
+}
 
 export default Post;

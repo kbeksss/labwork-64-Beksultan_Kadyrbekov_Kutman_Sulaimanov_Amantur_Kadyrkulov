@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import './Add.css';
 
-import Navigation from "../../components/Navigation/Navigation";
 import Form from "../../components/Form/Form";
 import axiosBlog from "../../axios-blog";
 
@@ -35,7 +34,6 @@ class Add extends Component{
     render() {
         return (
             <div className='Add'>
-                <Navigation/>
                 <Form
                     title={this.state.title}
                     text={this.state.text}

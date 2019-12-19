@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './Home.css';
-import Navigation from "../../components/Navigation/Navigation";
 import axiosBlog from "../../axios-blog";
 import Posts from "../../components/Posts/Posts";
 
@@ -13,12 +12,12 @@ class Home extends Component {
         const posts = {...response.data};
         this.setState({posts});
     }
-
     render() {
         return (
             <div className='Home'>
-                <Navigation/>
-                <Posts posts={this.state.posts}/>
+                <Posts
+                    posts={this.state.posts}
+                />
             </div>
         );
     }
