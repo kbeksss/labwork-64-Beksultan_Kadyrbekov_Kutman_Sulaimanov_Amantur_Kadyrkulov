@@ -1,11 +1,14 @@
 .Post{
     max-width: 1200px;
+    min-height: 90vh;
     margin: 25px auto 0;
-    padding: 10px 20px;
-    border: 1px solid #282c34;
+    padding: 30px 20px 10px;
+    border: 3px solid #ff5508;
     border-radius: 4px;
+    background: #37474f;
 }
 .Post .Header{
+    color: #3FF9DC;
     display: flex;
     justify-content: space-between;
 }
@@ -18,7 +21,8 @@
     border-radius: 4px;
 }
 .TextWrapper{
-    border: 1px solid;
+    border: 1px solid #3FF9DC;
+    color: #fff;
     border-radius: 4px;
     padding: 0 10px;
     margin: 0 0 20px;

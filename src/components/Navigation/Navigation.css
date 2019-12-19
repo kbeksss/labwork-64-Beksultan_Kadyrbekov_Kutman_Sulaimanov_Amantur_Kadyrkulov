@@ -1,9 +1,14 @@
 .Navigation{
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
 }
 .Navigation h1{
     text-transform: uppercase;
+    color: #3FF9DC;
+    background: #37474f;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 .Links{
     list-style: none;
@@ -16,17 +21,17 @@
     padding: 0;
 }
 .Link{
-    border-radius: 4px;
+    border: 3px solid #3FF9DC;
+    border-radius: 6px;
     text-decoration: none;
     color: #fff;
-    background: #282c34;
+    background: #37474f;
     padding: 10px 15px;
     margin: 4px 5px;
 }
 .Link.active{
-    background: #8d8d8d;
-    color: #000;
+    border-color: #ff5508;
 }
 .Link:hover{
-    background: #8d8d8d;
+    border-color: #ff5508;
 }
