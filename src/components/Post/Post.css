@@ -1,0 +1,28 @@
+.Post{
+    max-width: 1200px;
+    margin: 25px auto 0;
+    padding: 10px 20px;
+    border: 1px solid #282c34;
+    border-radius: 4px;
+}
+.Post .Header{
+    display: flex;
+    justify-content: space-between;
+}
+.Header h2, .Header span{
+    line-height: 30px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+.TextWrapper{
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 0 10px;
+    margin: 0 0 20px;
+}
+.Post button{
+    margin-right: 10px;
+}

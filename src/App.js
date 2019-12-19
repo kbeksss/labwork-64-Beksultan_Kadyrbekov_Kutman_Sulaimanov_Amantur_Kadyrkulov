@@ -4,7 +4,7 @@ import {BrowserRouter, Route, Switch} from "react-router-dom";
 import Add from "./containers/Add/Add";
 import Home from "./containers/Home/Home";
 import Navigation from "./components/Navigation/Navigation";
-import Post from "./components/Posts/Post/Post";
+import Post from "./components/Post/Post";
 
 const App = () => (
     <BrowserRouter>

@@ -3,6 +3,7 @@
     background: #525a6a;
     color: #fff;
     border-radius: 5px;
+    padding: 5px 15px;
 }
 .Button:hover{
     background: #282c34;
