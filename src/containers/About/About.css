@@ -8,3 +8,14 @@
     background: #37474f;
     font-size: 23px;
 }
+.About h2{
+    color: #3FF9DC;
+    text-transform: uppercase;
+}
+.About h3{
+    color: #ff5508;
+}
+.About p{
+    color: #fff;
+    padding: 0 25px;
+}
