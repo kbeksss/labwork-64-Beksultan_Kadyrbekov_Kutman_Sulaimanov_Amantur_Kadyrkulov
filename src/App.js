@@ -6,6 +6,8 @@ import Home from "./containers/Home/Home";
 import Navigation from "./components/Navigation/Navigation";
 import Post from "./components/Post/Post";
 import Edit from "./components/Post/Edit/Edit";
+import About from "./containers/About/About";
+import Contacts from "./containers/Contacts/Contacts";
 
 const App = () => (
     <BrowserRouter>
@@ -15,6 +17,8 @@ const App = () => (
         <Route path='/posts/add' component={Add}/>
         <Route path='/posts/:id' exact component={Post}/>
         <Route path='/posts/:id/edit' component={Edit}/>
+        <Route path='/about' component={About}/>
+        <Route path='/contacts' component={Contacts}/>
       </Switch>
     </BrowserRouter>
 

@@ -1,0 +1,10 @@
+.About{
+    max-width: 1200px;
+    min-height: 80vh;
+    margin: 25px auto 0;
+    padding: 30px 20px 10px;
+    border: 3px solid #ff5508;
+    border-radius: 4px;
+    background: #37474f;
+    font-size: 23px;
+}
