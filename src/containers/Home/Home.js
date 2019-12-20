@@ -12,7 +12,6 @@ class Home extends Component {
     async componentDidMount() {
         this.setState({loading: true});
         const response = await axiosBlog.get('blog.json');
-        console.log(response.data);
         this.setState({posts: response.data, loading: false});
     }
     readMore = (id) => {

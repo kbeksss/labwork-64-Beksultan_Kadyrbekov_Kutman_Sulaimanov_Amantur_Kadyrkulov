@@ -10,9 +10,25 @@ class Post extends Component {
     };
     async componentDidMount() {
         this.setState({loading: true});
-        const response = await axiosBlog.get('blog/' + this.props.match.params.id + '.json');
-        this.setState({post: response.data, loading: false});
+        const post = await axiosBlog.get('blog/' + this.props.match.params.id + '.json');
+        if(post.statusText === 'OK'){
+            this.setState({post: post.data, loading: false});
+        } else{
+            this.setState({loading: false});
+            alert('Your post hasn\'t been found');
+        }
     }
+    deletePost = async () => {
+       const deleted = await axiosBlog.delete('blog/' + this.props.match.params.id + '.json');
+       if(deleted.statusText === 'OK'){
+           this.props.history.replace('/');
+       } else{
+           alert('Your message hasn\'t been deleted');
+       }
+    };
+    editPost = () => {
+        this.props.history.push(this.props.match.params.id + '/edit');
+    };
     render() {
         let post = !this.state.loading ? (
             <div className='Post'>
@@ -23,8 +39,8 @@ class Post extends Component {
                 <div className='TextWrapper'>
                     <p>{this.state.post.text}</p>
                 </div>
-                <Button type='button'>Edit</Button>
-                <Button type='button'>Delete</Button>
+                <Button type='button' onClick={this.editPost}>Edit</Button>
+                <Button type='button' onClick={this.deletePost}>Delete</Button>
             </div>
         ) : <Spinner/>;
         return (
