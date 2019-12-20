@@ -18,7 +18,7 @@ class Post extends Component {
             <div className='Post'>
                 <div className="Header">
                     <h2 className='Title'>{this.state.post.title}</h2>
-                    <span className='Date'>Date</span>
+                    <span className='Date'>{this.state.post.date}</span>
                 </div>
                 <div className='TextWrapper'>
                     <p>{this.state.post.text}</p>

@@ -2,10 +2,12 @@
     box-sizing: border-box;
 }
 .Backdrop{
-    position: fixed;
+    min-height: 80vh;
+    max-width: 1200px;
+    margin: 25px auto 0;
+    border: 3px solid #ff5508;
     background: #37474f;
-    height: 100vh;
-    width: 100vw;
+    border-radius: 4px;
 }
 .Spinner {
     max-width: 400px;

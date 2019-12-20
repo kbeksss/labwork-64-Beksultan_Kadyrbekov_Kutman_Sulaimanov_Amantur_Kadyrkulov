@@ -1,4 +1,5 @@
 .Home{
+    min-height: 80vh;
     max-width: 1200px;
     margin: 25px auto 0;
     padding: 30px 20px 10px;
@@ -18,4 +19,9 @@
 }
 .ETitle{
     font-size: 18px;
+}
+.Empty{
+    text-align: center;
+    margin: 30px 0;
+    color: #fff;
 }

@@ -2,17 +2,21 @@
     max-width: 800px;
     margin: 20px auto;
     padding: 15px 20px;
-    border: 2px solid #282c34;
+    border: 3px solid #3FF9DC;
+    border-radius: 5px;
 }
 .Form label{
+    color: #3FF9DC;
     display: block;
     padding: 5px 10px;
 }
 .Form button{
     padding: 5px 10px;
     font-size: 18px;
+    color: #3FF9DC;
 }
 .Form input , .Form textarea{
+    background: #d6d6d6;
     display: inline-block;
     border: 1px solid #282c34;
     border-radius: 3px;
@@ -29,6 +33,7 @@
 }
 
 .Form h3{
+    color: #3FF9DC;
     text-transform: uppercase;
     margin: 5px 0 10px;
 }

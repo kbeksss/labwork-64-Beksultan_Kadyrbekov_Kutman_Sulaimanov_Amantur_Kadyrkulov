@@ -1,13 +1,15 @@
 .Post{
     max-width: 1200px;
-    min-height: 90vh;
+    min-height: 80vh;
     margin: 25px auto 0;
     padding: 30px 20px 10px;
     border: 3px solid #ff5508;
     border-radius: 4px;
     background: #37474f;
+    font-size: 23px;
 }
 .Post .Header{
+    padding: 15px 0;
     color: #3FF9DC;
     display: flex;
     justify-content: space-between;
@@ -25,8 +27,9 @@
     color: #fff;
     border-radius: 4px;
     padding: 0 10px;
-    margin: 0 0 20px;
+    margin: 25px 0;
 }
 .Post button{
     margin-right: 10px;
+    font-size: 1em;
 }
