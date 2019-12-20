@@ -8,4 +8,5 @@
 .Button:hover{
     background: #3FF9DC;
     color: #000;
+    cursor: pointer;
 }

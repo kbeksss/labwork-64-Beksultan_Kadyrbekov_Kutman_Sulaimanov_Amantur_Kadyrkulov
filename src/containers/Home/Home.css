@@ -14,6 +14,10 @@
     padding: 10px 20px;
     margin: 20px 0;
 }
+.EPost:hover{
+    background: #ffffff;
+    border: 3px solid #ff5508;
+}
 .EDate{
     font-size: 13px;
 }
